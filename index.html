@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Simon Says</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="label">Ready to Play?</div>
+    <div id="game">
+        <div id="buttons">
+            <div id="green" class="gameButton"></div>
+            <div id="red" class="gameButton"></div>
+            <div id="yellow" class="gameButton"></div>
+            <div id="blue" class="gameButton"></div>
+        </div>
+        <div id="black">
+            <div id="horLine"></div>
+            <div id="vertLine"></div>
+            <div id="center" class="start">
+                Click Here<br>to Start
+            </div>
+
+            <!--
+                make a new center that hides the start center after game is started and then is replaced when game ends 
+                <div id="center" class="start">
+                Click Here<br>to Start
+            </div> -->
+        </div>
+    </div>
+    
+    <!-- <button id="start">Start</button> -->
+</body>
+<script src="script.js"></script>
+</html>
