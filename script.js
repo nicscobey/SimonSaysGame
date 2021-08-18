@@ -6,20 +6,9 @@ let center = document.getElementById('center');
 let randomNum;
 let label = document.getElementById('label')
 
-//could add difficulty feature. here's how:
-//time is a variable, and upon selecting difficulty it sets 
-//high, med, or low time to show how fast button moves
-
-//could make buttons appear faster as more buttons added. 
-//this would require that time is a decreasing variable
-
-//consider adding a specific sound for each color
-
 //function that notes when a button is clicked
 for(let i = 0; i <buttons.length; i++) {
     buttons[i].addEventListener('click', function buttonOn() {
-        // console.log(colors[i] + " was clicked");
-        // setTimeout(function() {buttons[i].style.opacity = "75%";}, 250);
 
         setTimeout(function() {buttons[i].style.opacity = "60%";}, 250);
         buttons[i].style.opacity = "100%";
@@ -99,22 +88,3 @@ function checker() {
         }
     }
 }
-
-
-
-// generate random number from 0-3
-// random = Math.floor((Math.random() * 4));
-
-// store number in simon
-// simon.push(random);
-
-// for each # in simon, light up buttons[i]
-// for(let i = 0; i <simon.length; i++) {
-//     setTimeout(function() {buttons[i].style.opacity = "75%";}, 300);
-//     simon[i].style.opacity = "100%";
-// }
-
-// wait for user to click buttons (nextInput)
-// add nextInput to input
-// if input == simon, input = "" and generate next random number
-// else, lose game

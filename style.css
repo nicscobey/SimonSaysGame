@@ -6,6 +6,7 @@ body {
     flex-direction: column;
     height: 100vh;
     font-family: 'Merriweather Sans', sans-serif;
+    background-color: rgb(186, 186, 186);
 }
 
 #label {
@@ -38,7 +39,6 @@ body {
 
 .gameButton:hover, button:hover, .start {
     cursor: pointer;
-    /* opacity: 85%; */
 }
 
 #green {
@@ -46,8 +46,6 @@ body {
     border-top-left-radius: 100%;
     margin-top: 25px;
     margin-left: 25px;
-    /* border-right: 12.5px solid black;
-    border-bottom: 12.5px solid black; */
 }
 
 #red {
@@ -55,8 +53,6 @@ body {
     border-top-right-radius: 100%;
     margin-top: 25px;
     margin-right: 25px;
-    /* border-left: 12.5px solid black;
-    border-bottom: 12.5px solid black; */
 }
 
 #yellow {
@@ -64,8 +60,6 @@ body {
     border-bottom-left-radius: 100%;
     margin-left: 25px;
     margin-bottom: 25px;
-    /* border-right: 12.5px solid black;
-    border-top: 12.5px solid black; */
 }
 
 #blue {
@@ -73,8 +67,6 @@ body {
     border-bottom-right-radius: 100%;
     margin-right: 25px;
     margin-bottom: 25px;
-    /* border-top: 12.5px solid black;
-    border-left: 12.5px solid black; */
 }
 
 #center {
@@ -101,7 +93,6 @@ body {
 }
 
 #horLine {
-    /* position: absolute; */
     width: 575px;
     height: 25px;
     background-color: black;
